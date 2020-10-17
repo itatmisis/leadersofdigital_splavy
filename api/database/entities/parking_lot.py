@@ -9,7 +9,7 @@ from database.entities.point import Point
 
 
 class ParkingLot(BaseModel):
-    id: float
+    id: int
     map_location: GeographicalPoint
     map_figure: GeographicalFigure
     photo_location: Point
